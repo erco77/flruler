@@ -1,0 +1,44 @@
+1.05 - 08/02/2016
+
+	> Added Albrecht Schlosser's patch for +/- keys to scale ruler length
+
+1.04 - 04/23/2012
+
+        > Modified/simplified Makefile to use fltk-config
+
+        > On OSX, builds Intel + PPC universal binaries
+
+        > No code changes in this release
+
+1.03 - ??/??/06
+
+	> Made font size on OSX +1 (8 was too small)
+
+1.02 - 05/29/06
+
+	> Added FreeBSD support
+
+	> Added 'make install' target for unix systems
+
+	> Fixed 'make docs' for IRIX
+
+1.01 - 05/28/06
+
+	> Command line help added (-h)
+
+	> Put all icons and docs in separate dirs to keep src dir clean
+
+	> Some changes to the DISTRO script for automating creation of the
+	  multi-platform binaries
+
+	> "Fix" for matthais OSX problem with 100px min width on windows
+	  causing vertical ruler to appear with a 'double rule' immediately 
+	  after rotation. (Force ruler width to be 100px -- back out when/if
+	  fixed in future FLTK release)
+
+
+1.00 - 05/27/06 
+
+	> Initial Release
+
+	> Tested Fedora Core 3, OSX 10.4.5, Win2K+VS6

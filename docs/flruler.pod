@@ -1,0 +1,63 @@
+=head1 NAME
+
+B<flruler> - a simple onscreen pixel measuring ruler for debugging GUIs
+
+=head1 SYNOPSIS
+
+flruler [no options]
+
+=head1 DESCRIPTION
+
+B<flruler> displays a ruler on your desktop that you can drag around
+to measure elements in GUIs.  Intended for GUI development/debugging
+to verify widget separations and sizes, though may also be used for
+general computer graphics, including measuring pixel distances of images,
+widgets in web applications, etc.
+
+To move flruler, just click and drag it to where you want it.
+Press B<ESC> to exit. You can make copies of the ruler by Middle-Clicking
+or hitting B<C>. You can rotate the ruler(s) using the Up/Down/Left/Right
+arrow keys.
+
+=head1 OPTIONS
+
+There are currently no command line options.
+
+=head1 KEYBOARD OPERATIONS
+
+    'c'                   Make a copy of the current ruler (in focus)
+    'esc'                 Closes current ruler (in focus)
+    'q'                   Quit all rulers
+    Up,Down,Left,Right    Re-orients ruler (arrow points to where zero will be)
+    +                     Increase size of ruler by 10%
+    -                     Decrease size of ruler by 10%
+
+=head1 MOUSE OPERATIONS
+
+    Left-Drag             Drags current ruler around for positioning
+    Left-Double-click     Reverses direction of current ruler's numbers
+    Left-Triple-click     Rotates current ruler 90 degrees
+    Middle-Click          Makes copy of current ruler
+
+=head1 AUTHOR
+
+flruler Version 1.05
+Written by Greg Ercolano.
+
+The latest version of B<flruler> can be downloaded from http://seriss.com/people/erco/fltk/flruler/
+To build B<flruler> from source, you need FLTK, the multi-platform GPL graphics toolkit
+(which supports Windows, Linux, OSX, IRIX..) from http://www.fltk.org/
+
+=head1 BUGS
+
+To report bugs, send email to erco@seriss.com, and include "flruler bug report"
+in the Subject: of the message, or it will be ignored.
+
+=head1 COPYRIGHT
+
+Copyright (C) 2012, 2006 Greg Ercolano.
+
+This is free software; see the source for copying conditions.  There is
+NO  warranty;  not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. For more information, see the LICENSE file that came with
+the source.

@@ -1,0 +1,8 @@
+    o right-click menu for help, orientation changes, open xmag/oglsnoop
+      and 'magnify.exe' (windows -- see mike sweet's email 05/28/06)
+
+    o ^w, 'x' and 'del' should close current ruler
+
+    o Add version#s to docs
+
+    o +/- or ctrl(+)  and ctrl(-) should make font larger/smaller?
