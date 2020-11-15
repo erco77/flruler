@@ -1,6 +1,10 @@
 # flruler
 A desktop pixel ruler. Runs on Mac, Linux, Windows, FreeBSD.
 
+![Image of 2k flruler](https://raw.githubusercontent.com/erco77/flruler/main/docs/images/flruler-2k.png)
+
+![Image of flruler](https://raw.githubusercontent.com/erco77/flruler/main/docs/images/flruler.png)
+
 A program for measuring the pixel size of on-screen elements. Intended
 for GUI debugging to verify widget separations and sizes, though may
 also be used for general computer graphics debugging purposes, including
@@ -22,12 +26,12 @@ You can easily make copies of the ruler and reorient it with arrow keys and mous
        +         Increase length of ruler by 10%
        -         Decrease length of ruler by 10%
 
-   Mouse Operation      Description
-   ---------------      ---------------------------------------------
-   Left-Drag            Drags current ruler around for positioning
-   Left-Double-click    Reverses direction of current ruler's numbers
-   Left-Triple-click    Rotates current ruler 90 degrees
-   Middle-Click         Makes copy of current ruler
+    Mouse Operation      Description
+    ---------------      ---------------------------------------------
+    Left-Drag            Drags current ruler around for positioning
+    Left-Double-click    Reverses direction of current ruler's numbers
+    Left-Triple-click    Rotates current ruler 90 degrees
+    Middle-Click         Makes copy of current ruler
 
 ## LICENSE
 
