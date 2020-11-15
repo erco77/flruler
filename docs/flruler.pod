@@ -44,7 +44,10 @@ There are currently no command line options.
 flruler Version 1.05
 Written by Greg Ercolano.
 
-The latest version of B<flruler> can be downloaded from http://seriss.com/people/erco/fltk/flruler/
+The latest version of B<flruler> can be downloaded from https://github.com/erco77/flruler.
+
+The old project's homepage has prebuilt binaries: http://seriss.com/people/erco/fltk/flruler/
+
 To build B<flruler> from source, you need FLTK, the multi-platform GPL graphics toolkit
 (which supports Windows, Linux, OSX, IRIX..) from http://www.fltk.org/
 
